@@ -18,5 +18,9 @@ namespace Amtelco.Test
             await first;    // handle any exceptions from pending
 
         }
+        public async void DoStuffAsync()
+        {
+            Console.WriteLine("This is bad!");
+        }
     }
 }
