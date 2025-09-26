@@ -48,7 +48,7 @@ jobs:
                 # Check the Quality Gate status.
       - name: SonarQube Quality Gate check
         id: sonarqube-quality-gate-check
-        uses: sonarsource/sonarqube-quality-gate-action@master
+        uses: sonarsource/sonarqube-quality-gate-action@${{ github.sha }} #master
         with:
           pollingTimeoutSec: 60
           scanMetadataReportFile: .sonarqube/out/.sonar/report-task.txt
