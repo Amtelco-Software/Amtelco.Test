@@ -18,9 +18,9 @@ namespace Amtelco.Test
             await first;    // handle any exceptions from pending
 
         }
-        public async void BR5()
+        public async void BR6()
         {
-            Console.WriteLine("BR-5 bad!");
+            Console.WriteLine("BR-6 bad!");
         }
     }
 }
