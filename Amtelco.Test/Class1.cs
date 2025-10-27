@@ -18,5 +18,9 @@ namespace Amtelco.Test
             await first;    // handle any exceptions from pending
 
         }
+        public void BR4()
+        {
+            Console.WriteLine("BR-4");
+        }
     }
 }
