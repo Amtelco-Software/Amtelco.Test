@@ -22,5 +22,9 @@ namespace Amtelco.Test
         {
             Console.WriteLine("DoMoreStuff");
         }
+        public async Task DoMoreStuff2()
+        {
+            Console.WriteLine("DoMoreStuff2");
+        }
     }
 }
