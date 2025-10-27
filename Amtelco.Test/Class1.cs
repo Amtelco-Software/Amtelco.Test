@@ -20,7 +20,8 @@ namespace Amtelco.Test
         }
         public static void DoMoreStuff()
         {
-            Console.WriteLine("DoMoreStuff");
+            int async = 0;
+            Console.WriteLine("DoMoreStuff {0}", async);
         }
     }
 }
